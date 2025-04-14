@@ -1,0 +1,35 @@
+.tudo{
+    background-color: #415a77;
+    margin: 25px;
+    padding: 50px;
+}
+.fundo{
+    display: flex;
+    color: white;
+    background-color: #1b263b;
+    text-align: center;
+    padding: 50px;
+}
+.steam{
+    border: solid 2px;
+    margin: 25px;
+    padding: 25px;
+}
+.epic{
+    border: solid 2px;
+    margin: 25px;
+    padding: 25px;
+}
+.nuuvem{
+    border: solid 2px;
+    margin: 25px;
+    padding: 25px;
+}
+.explorar{
+    color: #0077b6;
+}
+.H1{
+    text-align: center;
+    flex-direction: row;
+    color: #778da9;
+}

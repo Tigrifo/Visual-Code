@@ -1,0 +1,22 @@
+.esquerda{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.direita{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.broly{
+    text-align: center;
+}
+.pou{
+    background-color: palegreen;
+    padding: 112px;
+    text-align: center;
+    font-size: 30px;
+}
+.texto{
+    color: red;
+}
