@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(252, 208, 63);
+}
+p{
+    font-size: 300%;
+    margin-left: 25%;
+}
+p{
+    animation-duration: 3s;/* tempo da animação*/
+    animation-name: slidein;/*tipo de animação*/
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+}
