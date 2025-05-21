@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    background-color: #e41e2e;
+    color: aliceblue;
+    font-size: 55px;
+    margin: 35px;
+    padding: 35px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;       /* alinha verticalmente */
+    position: relative;        /* pra centralizar direito se precisar */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.protagonistas{
+    display: flex;
+    justify-content: left;
+    background-color: rgba(255, 255, 255, 0.096);
+    margin: 35px;
+    padding: 35px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+.texto{
+    margin: 35px;
+    font-size: 40px;
+}
+.img{
+    flex-shrink: 0;            /* impede que a imagem encolha */
+  margin-right: 20px;        /* espaço entre a imagem e o título */
+}
+.carro{
+    flex: 0.8;                   /* ocupa o espaço restante */
+    text-align: center;        /* centraliza o texto dentro desse espaço */
+}
+.footer{
+    background-color: #e41e2f4d;
+    justify-content: center;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    color: rgba(255, 255, 255, 0.37);
