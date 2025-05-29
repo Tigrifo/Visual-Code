@@ -1,0 +1,90 @@
+
+body{
+    background-color: #99cc66;
+    font-size: 17px;
+    color: rgb(70, 70, 70);
+    line-height: 25px;
+}
+.completo{
+    font-family: 'Press Start 2P', sans-serif;
+    gap: 20px;
+}
+.header{
+    display: flex;
+}
+nav {
+    display: flex;
+    position: fixed;
+    top: 10px;
+    right: 45px;
+    gap: 15px;
+    border: none;
+}
+button{
+    background-color: rgba(255, 228, 196, 0);
+    border: none;
+    cursor: pointer;
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+}
+.conteudo{
+    align-items: center;
+    display: flex;
+}
+.texto{
+    text-align: start;
+    width: 950px;
+    
+}
+.nos{
+    display: flex;
+    flex-direction: column;
+}
+.linq{
+    background-color:rgb(49, 49, 49);
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.icone{
+    padding-left: 90px;
+    border-radius: 15px;
+}
+.botaoVideo{
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: rgb(54, 54, 54);
+    color: rgb(177, 177, 177);
+    padding: 15px;
+    border-radius: 9px;
+}
+/* Estilo do Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Conteúdo do Modal */
+.conteudo-modal {
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+}
+
+.realtrailer{
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+    text-decoration: none;
+    color: #a5db6f;
+}
