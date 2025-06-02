@@ -1,0 +1,19 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+div{
+    margin-left: 150px;
+}
+.T1{
+    display: flex;
+    gap: 15px;
+}
+.T2{
+    display: flex;
+    gap: 15px; 
+}
+.T3{
+    display: flex;
+    gap: 15px;
+}
