@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    justify-items: center;
+}
+button{
+    cursor: pointer;
+}
+.menos{
+    background-color: red;
+    border-radius: 6px;
+    border: none;
+    padding: 15px;
+    color: white;
+}
+.resetar{
+    background-color: blue;
+    border-radius: 6px;
+    border: none;
+    padding: 15px;
+    color: white;
+}
+.mais{
+    background-color: green;
+    border-radius: 6px;
+    border: none;
+    padding: 15px;
+    color: white;
+}
+.contador{
+    font-size: 25px;
+}
+.mais100{
+    background-color: green;
+    border-radius: 6px;
+    border: none;
+    padding: 15px;
+    color: white;
+}
+.menos100{
+    background-color: red;
+    border-radius: 6px;
+    border: none;
+    padding: 15px;
+    color: white;
+}
