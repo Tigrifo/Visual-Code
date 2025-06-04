@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    transition: 0.5s;
+}
+.header{
+    background-color: rgb(32, 166, 255);
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(155, 155, 155);
+}
+.dark{
+    background-color: rgb(36, 35, 35);
+   
+    color: white;
+}
+.dark .header{
+    background-color: rgb(51, 51, 51);
+}
+.dark button{
+    background-color:rgb(36, 35, 35) ;
+    color: white;
+}
