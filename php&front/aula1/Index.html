@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Contato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            padding: 20px;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        button {
+            background: #007BFF;
+            color: white;
+            padding: 10px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <form action="processar.php" method="POST">
+        <h2>Formulário de Contato</h2>
+
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Mensagem:</label>
+<textarea name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
